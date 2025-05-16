@@ -1,0 +1,42 @@
+{
+  "name": "postman-style-guide-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "reinstall": "rm -rf node_modules && rm -rf .next && rm package-lock.json && npm i",
+    "update:react": "npm i react@latest react-dom@latest",
+    "update:next": "npm i next@latest",
+    "update:typescript": "npm i -D typescript@latest @types/node@latest @types/react@latest @types/react-dom@latest",
+    "update:tailwind": "npm i -D tailwindcss@latest @tailwindcss/postcss@latest",
+    "update:shadcn": "npm i class-variance-authority@latest clsx@latest tailwind-merge@latest",
+    "update:eslint": "npm i -D eslint@latest eslint-config-next@latest @eslint/eslintrc@latest",
+    "update:biome": "npm i -D @biomejs/biome@latest",
+    "update:all-dependencies": "npm i && npm run update:react && npm run update:next && npm run update:typescript && npm run update:tailwind && npm run update:shadcn && npm run update:eslint && npm run update:biome && npm ls && npm outdated"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "eslint": "^9.27.0",
+    "eslint-config-next": "^15.3.2",
+    "tailwindcss": "^4.1.7",
+    "tw-animate-css": "^1.3.0",
+    "typescript": "^5.8.3"
+  }
+}
