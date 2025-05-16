@@ -13,11 +13,13 @@
     "update:typescript": "npm i -D typescript@latest @types/node@latest @types/react@latest @types/react-dom@latest",
     "update:tailwind": "npm i -D tailwindcss@latest @tailwindcss/postcss@latest",
     "update:shadcn": "npm i class-variance-authority@latest clsx@latest tailwind-merge@latest",
+    "update:radix": "npm i @radix-ui/react-slot@latest",
     "update:eslint": "npm i -D eslint@latest eslint-config-next@latest @eslint/eslintrc@latest",
     "update:biome": "npm i -D @biomejs/biome@latest",
-    "update:all-dependencies": "npm i && npm run update:react && npm run update:next && npm run update:typescript && npm run update:tailwind && npm run update:shadcn && npm run update:eslint && npm run update:biome && npm ls && npm outdated"
+    "update:all-dependencies": "npm i && npm run update:react && npm run update:next && npm run update:typescript && npm run update:tailwind && npm run update:shadcn && npm run update:radix && npm run update:eslint && npm run update:biome && npm ls && npm outdated"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.511.0",
